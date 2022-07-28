@@ -1,0 +1,14 @@
+name: "Setup Keptn CLI"
+description: "Setup the Keptn CLI in a GitHub Actions build environment"
+author: "Moon1706"
+inputs:
+  keptn-version:
+    description: "Version of the Keptn CLI to install, or 'latest' (default)"
+    required: true
+    default: "latest"
+branding:
+  icon: "terminal"
+  color: "purple"
+runs:
+  using: "node16"
+  main: "dist/index.js"
