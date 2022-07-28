@@ -25,7 +25,7 @@ jobs:
       - name: "Build"
         run: npm run build
       - name: "Run"
-        run: node dist/index.js
+        run: node dist/__test__/index.js
       - name: "Test"
         run: keptn -v
   publish:
