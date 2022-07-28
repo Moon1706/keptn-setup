@@ -10,10 +10,9 @@
   "description": "Setup Keptn CLI.",
   "main": "dist/index.js",
   "scripts": {
-    "default": "npm install && npm run build",
+    "default": "npm install && npm run clean && npm run build",
     "clean": "shx rm -rf dist",
-    "copyfiles": "mv node_modules/ dist/node_modules/",
-    "build": "npm run clean && tsc && npm run copyfiles"
+    "build": "tsc"
   },
   "keywords": [
     "keptn",
