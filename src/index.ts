@@ -19,7 +19,7 @@ function installKeptn(scriptFilse: string): void {
     }
 }
 
-async function main(keptnUrl: string, version: string) {
+export async function main(keptnUrl: string, version: string) {
     const scriptFile = 'script.sh';
     await download(keptnUrl, scriptFile);
     if (version !== 'latest' && version !== '') {
@@ -27,7 +27,3 @@ async function main(keptnUrl: string, version: string) {
     }
     await installKeptn(scriptFile);
 }
-
-const keptnUrl = 'https://get.keptn.sh';
-const version = 'latest';
-main(keptnUrl, version);
