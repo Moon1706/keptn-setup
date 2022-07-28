@@ -1,7 +1,8 @@
 # Setup GitHub Action
 
 This repository contains an action for use with GitHub Actions, which installs a specified version of the `keptn` CLI.
-_Main code_ of this tool storage in `develop` branch.
+
+**Main code** of this tool storage in `develop` branch.
 
 `keptn` is installed with [the official script](https://get.keptn.sh).
 
