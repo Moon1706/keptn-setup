@@ -1,0 +1,5 @@
+src/
+script.sh
+tsconfig.json
+.eslintrc.json
+.prettierrc.json
