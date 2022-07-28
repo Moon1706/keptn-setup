@@ -9,9 +9,9 @@ This is Typescript module install Keptn utility.
 #### Example
 
 ```js
-import { main } from 'keptn-setup';
+import { main } from "keptn-setup";
 
-const url = 'https://get.keptn.sh';
-const version = '0.16.0';
+const url = "https://get.keptn.sh";
+const version = "0.16.0";
 main(url, version);
-````
+```
