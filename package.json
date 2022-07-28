@@ -1,6 +1,6 @@
 {
   "name": "ketpt-setup",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "license": "MIT",
   "author": "Mikita Sharayeu <nick.moon.1705@gmail.com>",
   "repository": {
@@ -21,15 +21,16 @@
     "typescript"
   ],
   "dependencies": {
-    "@actions/core": "^1.2.6",
+    "@actions/core": "^1.9.0",
     "keptn-install": "1.0.2"
   },
   "devDependencies": {
-    "ts-node": "^10.8.1",
     "copyfiles": "^2.4.1",
+    "escape-string-regexp": "^5.0.0",
+    "semver": "^7.3.5",
     "shx": "^0.3.3",
-    "typescript": "^4.7.4",
-    "semver": "^7.3.5"
+    "ts-node": "^10.8.1",
+    "typescript": "^4.7.4"
   },
   "bugs": {
     "url": "https://github.com/Moon1706/keptn-setup/issues"
